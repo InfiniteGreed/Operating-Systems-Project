@@ -1,5 +1,4 @@
 # Operating-Systems-Project
 # The program will be using if statements to basically simulate an authentication function, the username and password are admin and adminpass 
-# I'm using the web version of github at the moment but the terminal wont let the code run unless this command is ran g++ main.cpp auth.cpp -o main ./main  
-# not sure if that issue will presist on non web version but it lets the program run, just in case it doesn't. 
+# Program will now run with the command: & "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\bin\clang++.exe" main.cpp auth.cpp process.cpp scheduler.cpp -o os.exe and then .\os.exe
 # Members: Antonio Contreras
