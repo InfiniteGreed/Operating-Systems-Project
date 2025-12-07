@@ -1,5 +1,6 @@
 #include "process.h"
 #include <iostream>
+#include "memory.h"
 
 using namespace std;
 
@@ -43,6 +44,11 @@ void Process::display()
          << "Completion Time: " << completion_time << endl
          << "Waiting Time: " << waiting_time << endl
          << "Turnaround Time: " << turnaround_time << endl;
+}
+
+bool Process::accessMemory(int virtualAddress, MemoryManager &mm)
+{
+    return mm.access(pid, virtualAddress);
 }
 
 
